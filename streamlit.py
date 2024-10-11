@@ -1,9 +1,7 @@
-from dotenv import load_dotenv
 import streamlit as st
 import requests
 import os
 
-load_dotenv()
 
 API_URL = os.getenv("API_URL")
 
